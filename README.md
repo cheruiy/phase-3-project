@@ -1,14 +1,17 @@
-#User stories
-#User management
-1. Add a new User
-   as a user, I want to be able to add a new user to the system so that I can create a shopping lists under my account
-2. List all users
-#shopping list management
-3. Create a shopping list
-4. list all shopping lists
-#item managemet
-5. Add an item to a Shopping list
-6. list all items in a Shopping list
-7. remove an item from a shopping list
-#usability
-9. help menu
+#Shopping List Manager
+This is a Python command-line application for managing shopping lists, users, and items. The application uses SQLite to store data and provides various commands to interact with the database.
+
+#Features
+Add User: Create new users.
+Add Shopping List: Create new shopping lists for users.
+Add Item: Add new items to the database.
+List Users: Display all users.
+List Shopping Lists: Display all shopping lists.
+List Items: Display all items.
+Remove Item: Remove an item from the database.
+Add User to Shopping List: Assign a user to a shopping list.
+Add Item to Shopping List: Add items to a specific shopping list with a specified quantity.
+List Tables: List all tables in the database.
+Delete User: Remove a user and their associated shopping lists.
+Delete Shopping List: Remove a shopping list and its associated items.
+Exit: Exit the application.
